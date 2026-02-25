@@ -62,6 +62,8 @@ namespace WinFroms_Lab2
             initSegmentCount = init;
             currentSegments = initSegmentCount;
             this.colorCount = colorCount;
+
+            //FILLING A SINGLE VIAL
             if (colors == null)
             {
                 segments = new List<Color>();
